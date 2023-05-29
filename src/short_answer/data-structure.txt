@@ -4,67 +4,80 @@ Why do we need data structure?
 Answer:
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer:because the datastructure frame the organization of information so that dev/users and machine undrestand it more
 
 When would we use data structures in the real world?
-Answer:
+Answer:we use data structure in our life almost every day in multiple tasks and routinessuch as: in online shopping/internet searching/healthcare/Airline planing
 
 What is an Array?
-Answer:
+Answer:array is an object that holds a fixed number of value of single dataType.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer:An array is a fixed in length data structureand an arraylist is varible length data structure can be extended or shrink
+an array store a one type of data and array list can store data in the form of object wich can be of diffrent type
 
 What is a LinkedList?
-Answer:
+Answer:it is a dynamic data structure,whose size increases when we add elements,and decreases when we remove elements,
+the linked list stores the data and the address of the data
 
 How is an Array different from LinkedList?
-Answer:
+Answer:An array is a grouping data of equivalent type,stored in a contigeous memory location,with a fixed
+       size of memory.
+       Alinked list is a grp of entities called a node that includes 2 segments(the data and address),linkedList stores
+       element randomly at any address of the size can be shrink or extended at runtime
 
 What is a Queue?
 Answer:
-
+a queue is an ordered list of elements.
 What is a Stack (referring to data structures)?
-Answer:
-
+Answer:is a linear type of data structure that follows the lifo priciple,and allows insertion and deletion
+operations from one end of the stack
 What is FIFO and LIFO?
-Answer:
+Answer:are two techniques of maintaining data in data structure,they also determine the sequence of entry/exit of data
+LIFO:last in first out used in stack data structure.
+Fifo:first in first oyt used in queue data structure.
 
 Explain Big O Notation?
-Answer:
+Answer:is fundamental concept to help us measure the time complexity and space complexity of the algorithm
 
 What is the best case to search an element from an array?
-Answer:
+Answer:is O(1)
 
 What is the worst case to search an element from an array?
-Answer:
+Answer:O(N)
 
 Describe what a tree data structure is?
-Answer:
+Answer:is a collection of node
 
 Describe what a graph data structure is?
-Answer:
+Answer:non-linear data structures made up of a finite number of nodes or verttices and the edges that connect them
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:hashMap is non-synchronized wherea hashtable is synchronized
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
-
+Answer:it works on hashing algorithm and uses hashCode()methods on key for get and put operation
+hashMap uses linked list to store elements these are called bins or brackets
+hashmap is used whenever data is stored as key-value pairs,where values can be added,retrieved and deleted using keys
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
-
+Answer:one of the most errors in java
+accurs when a program attempts to access an invalid index in an array;
+an index less then 0 or greater than length of the array
 What are the different ways of copying an array into another array?
 Answer:
+by using for loop/using the clone method/use arraycopy method()/using copyOf() or CopyOfRange() methods
 
 What is DFS and BFS?
-Answer:
+Answer:BFS:Breadth First Search,uses the queue to find the shortest path
+DFS:Depth First Search uses the Stack to find the shortest path
 
 What is Recursion?
-Answer:
+Answer:is a technique of making a function call it self
 
 What are linear and non-linear data Structures?
-Answer:
-
+Answer:in a linear data structure the data elements connect to each other sequentially,a user can transverse each element
+through a single run
+in a non linear data structure the data elements cinnect to each other hierarchically
+,thus,they are present at various levels
 Outline different sorting algorithms and their time complexities:
 
