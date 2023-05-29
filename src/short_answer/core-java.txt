@@ -1,13 +1,14 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:is a set of instructions,written by programmer in a computer,to perform some tasks.
 
 What is a JDK composed of? Define each components?
 Answer:
 
 What is an IDE?
-Answer:
+Answer:is a software application that provides comprehensive facilities to dev for software devlopment,
+it consist of a sousrce code editor,build automation tools,and a debugger.
 
 What are some of the most popular Java IDEs available in the market?
 Answer:
