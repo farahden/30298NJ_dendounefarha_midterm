@@ -4,87 +4,104 @@ What is a programming language?
 Answer:is a set of instructions,written by programmer in a computer,to perform some tasks.
 
 What is a JDK composed of? Define each components?
-Answer:jdk is a java
+Answer:the java Runtime Environment(JRE),an interpreter(java),a compiler(javaC),an archiver(jar),
+javadoc,and some development tools
+
 
 What is an IDE?
 Answer:is a software application that provides comprehensive facilities to dev for software devlopment,
 it consist of a sousrce code editor,build automation tools,and a debugger.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:///this is a try
+Answer:
+eclipse IDE/intellij IDEA/Appache NetBeans/Android Studio/Android IDE
 
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer:is a template used to create objects and to define object data type and methods
 
 What is an object?
-Answer:
+Answer:is an instance of a java class,meaning it is a copy of a specific class
 
 What is the entry point of a Java project?
-Answer:
+Answer:the entry point of a java project is the main method
 
 Why is the main() method static?
-Answer:
+Answer:so that JVM can call it without creating an instance of the class containing the main method
+       so its to make it a class-related method
 
 Which class is the superclass of all classes?
-Answer:
+Answer:the object class is the superclass hierarchy,which is presentin java.lnag package
+all predefined classes are the subclasses from object class
 
 What is difference between path and classpath variables?
-Answer:
+Answer:path is set for java tools in java programs like java and javaC which are used to compile the code
+classpath is used by system or application class loader to locate and load compile Jva Bytecodes stored in the class file
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer:an class can have an state with instance variable
+interface can not have state
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer:no, we can not create an object in both interface and abstract class,but we can use pointers and references to abstract
+class types
 
 What is Access Modifier?
-Answer:
+Answer:is a keyword that can be used to control the visibility of fields,methods and constructors in a class
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer:object oriented programming,is to improve code readability and reusability by defining a java program efficiently
+the main principles of object oriented programming are abstraction,encapsulation,inheritence,and polymorphism
 
 What is Java Package and which package is imported by default?
-Answer:
+Answerjava.lang package and no name package also named default
 
 What is an API? List some API's that you have used so far.
 Answer:
 
 Does java support multiple inheritance? Why or why not?
-Answer:
-
+Answer:yes,a class has the ability to implement more than one interface
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:is a feature of java in which a class has more than one method of the same name and their parameters
+are diffrent
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer:is an event that accurs during the execution of a program that disrupts the normal flow of the program instruction
+by using the try and catch method
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer:static is a key owrd that indicates that a particular member is not an instance but rather part of a type
+we use it when we want to share a member among all instances of the class,so we create only one instance of it
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer:is non access modifier,used for classes,attributes,and methods,which make them non changeable
+impossible to inherit or override
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer:final is an access modifier
+finally is the block in exception handling
+finalize is a method of object class
 
 What is a constructor?
-Answer:
+Answer:is used to  create instance of the class.is almost similar to the method except that its name is the name
+of the class
 
 Can we have multiple constructors in a class?
-Answer:
+Answer:yes
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer:a default constructor,created by the class.
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer:refers to the current object method or constructor,we use it to eliminate the confusion between class attributes and parameters
+with the same name
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer:refers to superclass(parent) object,the most common use of super keyword is to eliminate the confusion between
+superClasses and and SubClasses that heve methods with the same name
 
 What does JVM stand for?
 Answer:
