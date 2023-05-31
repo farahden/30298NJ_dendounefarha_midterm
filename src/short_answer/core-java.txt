@@ -164,37 +164,74 @@ What does JIT stands for?
 Answer:
 
 Explain the process of Java garbage collection?
-Answer:
+Answer:During the garbage collection, Java frees the heap space of those objects which are no longer referenced.
+       But if the number of referenced objects keeps on increasing and we don’t deference them
+       the JVM runs out of the heap space
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer:It is up to the JVM to run the Garbage Collector program.
+       When JVM runs the Garbage Collector, the unreachable objects are destroyed.
+       But still, we cannot guarantee when the JVM will run. Although we cannot force the GC to execute,
+       we can very well request for a Garbage Collection.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer:Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
+       Whenever an object is created, it’s always stored in the Heap space and stack memory contains the reference to it.
+       Stack memory only contains local primitive variables and reference variables to objects in heap space.
+       Objects stored in the heap are globally accessible whereas stack memory can’t be accessed by other threads.
+       Memory management in stack is done in LIFO manner whereas it’s more complex in Heap memory because it’s used globally.
+       Heap memory is divided into Young-Generation, Old-Generation etc, more details at Java Garbage Collection.
+       Stack memory is short-lived whereas heap memory lives from the start till the end of application execution.
+       We can use -Xms and -Xmx JVM option to define the startup size and maximum size of heap memory.
+       We can use -Xss to define the stack memory size.
+       When stack memory is full, Java runtime throws java.lang.StackOverFlowError whereas if heap memory is full,
+       it throws java.lang.OutOfMemoryError: Java Heap Space error.
+       Stack memory size is very less when compared to Heap memory.
+       Because of simplicity in memory allocation (LIFO), stack memory is very fast when compared to heap memory.
+
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer:is quite powerful and can be very useful.
+        Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime,
+        without knowing the names of the classes, methods etc.
+        at compile time. It is also possible to instantiate new objects, invoke methods and get/set field values using reflection
 
 What is multithreading in Java?
-Answer:
+Answer:is a process of executing multiple threads simultaneously.
+A thread is a lightweight sub-process, the smallest unit of processing.
+
 
 What is synchronization in Java?
-Answer:
+Answer:Synchronization is a Java feature that restricts multiple threads from trying to access the commonly
+shared resources at the same time.
+class variables or database records. Synchronization is widely used in multithreaded programming.
 
 What is a Framework?
-Answer:
+Answer:In computer programming,
+       a software framework is an abstract or concrete framework under which software providing
+       generic functionality can be selectively changed by additional user-written code,
+       thus providing application-specific software.
+       It provides a standard way to build and deploy applications and is a universal,
+       reusable software environment that provides particular functionality as part of a larger software platform
+       to facilitate the development of software applications, products and solutions.
+       Software frameworks may include support programs, compilers, code libraries,
+       and application programming interfaces (APIs) that bring together all the different components to enable development of a project or system.
+
 
 What are the testing Frameworks available in Java?
+Answer:JUnit/Selenium/Mocha/jasmine/Serenity/JUnit
+
+What are jUnit and testNG?********
 Answer:
 
-What are jUnit and testNG?
-Answer:
-
-What are the dependencies for this project?
+What are the dependencies for this project?********
 Answer:
 
 What is dependency injection in Java?
-Answer:
+Answer:dependency injection is a technique in which an object receives other objects that it depends on.
+       These other objects are called dependencies.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:Binding means an association of method call to the method definition.
+       Static and Dynamic Binding in Java. If the compiler maps the method at compile-time, it is Static Binding .
+        And, if the method is resolved at runtime, it is Dynamic Binding .
