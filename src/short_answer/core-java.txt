@@ -104,64 +104,89 @@ Answer:refers to superclass(parent) object,the most common use of super keyword 
 superClasses and and SubClasses that heve methods with the same name
 
 What does JVM stand for?
-Answer:
+Answer:JVM stands for Java Virtual Machine. It is an abstract computing machine that is responsible for executing Java programs.
+        When you write a Java program, the source code is compiled into byte code which is understandable by the JVM.
+        Upon execution, the JVM translates byte code into machine code of the target operating system.
 
 Is JVM platform independent?
-Answer:
+Answer:no,it isn't
 
 What version of Java are you using?
 Answer:
 
 What does JAR stand for?
-Answer:
+Answer:It's a file format based on the popular ZIP file format and is used for aggregating many files into one.
+
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:(JVM) is a virtual machine that enables a computer to run Java programs as well as programs written
+       in other languages that are also compiled to Java bytecode.
+       The JDK is a key platform component for building Java applications.
+       At its heart is the Java compiler IDG / Oracle / Images The Java Development Kit
+       (JDK) is one of three core technology packages used in Java programming,
+       along with the JVM (Java Virtual Machine) and the JRE (Java Runtime Environment).
+
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:(JVM) is a virtual machine that enables a computer to run Java programs as well as programs written
+       in other languages that are also compiled to Java bytecode.
+       Java Run-time Environment (JRE) is the part of the Java Development Kit ( JDK ).
+       It is a freely available software distribution which has Java Class Library, specific tools, and a stand-alone JVM .
+       It is the most common environment available on devices to run java programs.
+       The source Java code gets compiled and converted to Java bytecode.
+
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer:Compile time is the time at which the source code is converted into an executable code while the run time is the time at
+       which the executable code is started running.
 
 What is heap?
-Answer:
+Answer:The Java virtual machine has a heap that is shared among all Java virtual machine threads.
+              The heap is the runtime data area from which memory for all class instances and arrays is allocated.
+              The heap is created on virtual machine start-up
 
 How does Java manage its memory?
 Answer:
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer:String is immutable, if you try to alter their values,
+another object gets created, whereas StringBuffer and StringBuilder are mutable so they can change their values.
 
 What is Singleton class?
-Answer:
+Answer:a class that can have only one object (an instance of the class) at a time
 
 What is Serialization and Deserialization?
 Answer:
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:The body of do...while loop is executed at least once.
 
 What is Enum?
-Answer:
+Answer: is a special "class" that represents a group of constants (unchangeable variables, like final variables)
 
 What is Iterator?
-Answer:
+Answer:s an object that enables a programmer to traverse a container, particularly lists.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:integer is an object and int is a data type so int is taking less memory
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer:************
 
 What is constructor chaining in Java?
-Answer:
+Answer:Constructor chaining is the process of calling one constructor from another
+constructor with respect to current object. One of the main use of constructor
+chaining is to avoid duplicate codes while having multiple constructor
+(by means of constructor overloading) and make code more readable.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer:The primary difference between the serial and parallel collectors is that the parallel collector
+has multiple threads that are used to speed up garbage collection. The parallel collector is intended for applications
+with medium-sized to large-sized data sets that are run on multiprocessor or multithreaded hardware.
 
 What does JIT stands for?
-Answer:
+Answer:is an inventory management method in which you keep as little inventory on hand as possible. That means you don’t
+stockpile products and raw materials just in case you need them—you simply reorder products to replace those you’ve already sold.
 
 Explain the process of Java garbage collection?
 Answer:During the garbage collection, Java frees the heap space of those objects which are no longer referenced.
