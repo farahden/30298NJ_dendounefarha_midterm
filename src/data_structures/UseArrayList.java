@@ -1,6 +1,7 @@
 package data_structures;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class UseArrayList {
@@ -34,6 +35,16 @@ public class UseArrayList {
 
         //removing from index
         array.remove(0);
+
+        Iterator i = array.iterator();
+        while ( i.hasNext()){ // advanced using Iterator for collections
+            System.out.println(i.next());}
+
+        System.out.println();
+        System.out.println();
+//*****For each loop
+        for (Iterator j =array.iterator() ; j.hasNext();){
+            System.out.println(j.next());}
 
 
 
